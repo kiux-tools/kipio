@@ -14,9 +14,9 @@ exclude = ["tests*", "examples*"]
 name = "kipio"
 version = "1.0.0"
 authors = [
-    {name = "kiux-tools", email = "your-real-email@domain.com"},
+    {name = "kiux-tools", email = "gg2018177@gmail.com"},
 ]
-description = "Enhanced I/O Library for Python - Complete I/O solution in 88 elegant lines"
+description = "Enhanced I/O Library for Python"
 readme = "README.md"
 license = {text = "MIT"}
 keywords = [
