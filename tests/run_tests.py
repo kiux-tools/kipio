@@ -9,14 +9,12 @@ import os
 def run_tests():
     """Execute all tests"""
     print("Running Kipio tests...")
-    print("=" * 60)
+    print("=" * 6)
     
-    # تغيير المسار إلى المجلد الرئيسي
     project_root = os.path.dirname(os.path.dirname(__file__)) \
                    if os.path.basename(os.path.dirname(__file__)) == 'tests' \
                    else os.path.dirname(__file__)
-    
-    # تشغيل من المجلد الرئيسي
+
     result = subprocess.run(
         [sys.executable, "-m", "pytest", "tests/", "-v"],
         cwd=project_root,
