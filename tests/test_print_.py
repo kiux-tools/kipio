@@ -54,12 +54,11 @@ def test_print_return_string():
 
 def test_print_bytes():
     """Test _bytes_ parameter"""
-    # بدون return_string، يجب أن يرجع bytes
+    
     result = print_("Hello", _bytes_=True, silent=True)
     assert isinstance(result, bytes)
     assert result == b"Hello\n"
     
-    # مع return_string، يجب أن يرجع str (الأولوية لـ return_string)
     result = print_("Hello", _bytes_=True, return_string=True, silent=True)
     assert isinstance(result, str)
     assert result == "Hello\n"
