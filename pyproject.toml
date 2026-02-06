@@ -13,15 +13,16 @@ exclude = ["tests*", "examples*"]
 [project]
 name = "kipio"
 version = "1.0.0"
-authors = [
-    {name = "kiux-tools", email = "ahoptymous@gmail.com"},
-    {contact = {
-       Telegram: "@KIUX_X",
-       Instagram: "@1kiux0",
-       Discord: "@kiux0010"},
-    },
-]
-description = "Enhanced I/O Library for Python"
+[authors]
+name = "kiux-tools"
+email = "ahoptymous@gmail.com"
+
+[authors.contact]
+Telegram = "@KIUX"
+Discord = "@kiux0010"
+Instagram = "@1kiux0"
+
+description = "Enhatced I/O Library for Python"
 readme = "README.md"
 license = {text = "MIT"}
 keywords = [
