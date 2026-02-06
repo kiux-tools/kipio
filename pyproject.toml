@@ -14,7 +14,12 @@ exclude = ["tests*", "examples*"]
 name = "kipio"
 version = "1.0.0"
 authors = [
-    {name = "kiux-tools", email = "gg2018177@gmail.com"},
+    {name = "kiux-tools", email = "ahoptymous@gmail.com"},
+    {contact = {
+       Telegram: "@KIUX_X",
+       Instagram: "@1kiux0",
+       Discord: "@kiux0010"},
+    },
 ]
 description = "Enhanced I/O Library for Python"
 readme = "README.md"
