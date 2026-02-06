@@ -65,7 +65,7 @@ def input_(prompt="", _bytes_=False, strip=True, lower=False, default=None,
         return f"Error: {e}"
 
 
-def print_(*values, file=None, mode=None, end="\n", sep=" ", flush=False,
+def print_(*values, file=None, mode=None, end="", sep=" ", flush=False,
            silent=False, timestamp=False, return_string=False, 
            encOD='utf-8', _bytes_=False):
     """
