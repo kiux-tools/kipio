@@ -1,7 +1,7 @@
 ```markdown
 ## Kipio - Enhanced I/O Library for Python
 
-A complete I/O solution packed into 88 elegant lines of Python code. Kipio provides enhanced input and output functions with validation, security features, and file operations.
+A complete I/O solution packed into 131 elegant lines of Python code. Kipio provides enhanced input and output functions with validation, security features, and file operations.
 
 ## Overview
 
