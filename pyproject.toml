@@ -12,7 +12,7 @@ exclude = ["tests*", "examples*"]
 
 [project]
 name = "kipio"
-version = "1.0.0"
+version = "1.0.1"
 [authors]
 name = "kiux-tools"
 email = "ahoptymous@gmail.com"
